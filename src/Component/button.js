@@ -11,7 +11,7 @@ export default class Button extends Component {
     action = (event) => {
         if(this.props.related)
             this.props.related(event)
-        this.setState({active:(this.active ? false : true)});
+        this.setState({active:(this.state.active ? false : true)});
     }
     compare() {
         let def = (this.state.active ? this.props.active : this.props.default);
