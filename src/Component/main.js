@@ -27,7 +27,7 @@ export default class Main extends Component{
         return (
             <div>
                 <HappyDrink max={25} min={10}/>
-                <input type="text" onChange={this.getInput}></input>
+                <input type="text" className="mt" onChange={this.getInput}></input>
                 {this.isDefined()}
             </div>
         )
