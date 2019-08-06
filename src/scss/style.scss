@@ -1,0 +1,32 @@
+$px:30px;
+.presentation{
+    background-color:grey;
+    padding-top:20px;
+    padding-bottom:10px;
+    margin:20px;
+    border-radius:5px;
+    padding-left:$px;
+    padding-right:$px;
+}
+.btn{
+    background-color: transparent;
+    font-size:25px;
+    border:none;
+}
+.d-flex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.active {
+    color:yellow;
+}
+.like{
+    color:blue;
+}
+.dislike{
+    color:red;
+}
+.mt {
+    margin-top:10px;
+}
